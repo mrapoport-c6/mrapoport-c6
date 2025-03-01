@@ -52,9 +52,13 @@ s
 Platform	Link
 __________________________
 GitHub    |	github.com/mrapoport-c6
+
 Email     |	michael.rapoport@covered6.com
+
 Email2    |    michaelrapoport@gmail.com
+
 LinkedIn  |	linkedin.com/in/michael-rapoport
+
 
 <!-- Add your LinkedIn link -->
 Got a groundbreaking idea or looking to collaborate on secure solutions? Don’t hesitate to reach out!!!
