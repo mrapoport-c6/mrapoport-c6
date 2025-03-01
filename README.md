@@ -34,7 +34,7 @@ I passionately create robust, secure systems and advanced solutions to advanced 
 
 Merging development artistry with best practices and novel approaches seem to be my preferred methodology, but thinking outside of the box exclusively will make you nuts, so I value classically beautiful and elegant code and engineering feats. As long as the data is safe and secure. And as long as the client is happy. 
 
-##🔰 Mission Control##
+##🔰 Mission Control ##
 
 Development Philosophy:
 Bulletproof architecture x Elegant x modular x performant\
