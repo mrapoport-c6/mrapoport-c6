@@ -63,4 +63,4 @@ LinkedIn  |	linkedin.com/in/michael-rapoport
 <!-- Add your LinkedIn link -->
 Got a groundbreaking idea or looking to collaborate on secure solutions? Don’t hesitate to reach out!!!
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/2332715/183760150-d8b2f8c0-588d-4221-95a3-85cfc3d28cef.png" alt="Matrix Code" width="400" /> </p> <p align="center"> <b>“The quieter you become, the more you can hear.”</b> – Ram Dass </p>
+<p><b>“The quieter you become, the more you can hear.”</b> – Ram Dass </p>
