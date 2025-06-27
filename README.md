@@ -14,7 +14,7 @@
   <a href="https://github.com/mrapoport-c6">
     <img src="https://img.shields.io/badge/GitHub-mrapoport--c6-informational?style=flat&logo=github&logoColor=white&color=282a36" alt="GitHub Badge"/>
   </a>
-  <a href="mailto:mrapoport@covered6.com">
+  <a href="mailto:michael.rapoport@gmail.com">
     <img src="https://img.shields.io/badge/Email-michael.rapoport%40covered6.com-blue?style=flat" alt="Email Badge"/>
   </a>
 </p>
