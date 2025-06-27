@@ -7,7 +7,7 @@
 
 <h1 align="center">Michael Rapoport</h1>
 <h3 align="center">
-  <em>Lead Ai Researcher, Software Engineer &amp; Innovation Specialist <br />Covered 6 Thinktank</em>
+  <em>Lead Ai Researcher, Software Engineer &amp; Innovation Specialist <br /></em>
 </h3>
 
 <p align="center">
