@@ -2,7 +2,7 @@
      README.md 
      Repo: https://github.com/mrapoport-c6/
      Author: Michael Rapoport
-     Role: Lead Software Engineer & Solutions Architect @ Covered 6 Security, Moorpark, CA
+     Role: Lead Software Engineer & Solutions Architect
 -->
 
 <h1 align="center">Michael Rapoport</h1>
@@ -53,9 +53,7 @@ Platform	Link
 __________________________
 GitHub    |	github.com/mrapoport-c6
 
-Email     |	michael.rapoport@covered6.com
-
-Email2    |    michaelrapoport@gmail.com
+Email    |    michael.rapoport@gmail.com
 
 LinkedIn  |	linkedin.com/in/michael-rapoport
 
