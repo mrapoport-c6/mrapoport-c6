@@ -314,6 +314,58 @@ class NeuralCodeNexus {
                 stream.textContent = sequences[Math.floor(Math.random() * sequences.length)];
             }, 500);
         });
+        
+        // Animate tech indicators
+        const techCounts = document.querySelectorAll('.tech-count-small');
+        techCounts.forEach((count, index) => {
+            setInterval(() => {
+                count.style.transform = `scale(${1 + Math.sin(Date.now() * 0.003 + index) * 0.1})`;
+            }, 50);
+        });
+        
+        // Matrix rain effect on canvas
+        this.addMatrixRain();
+    }
+    
+    addMatrixRain() {
+        const matrixChars = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
+        const drops = [];
+        const dropCount = Math.floor(this.canvas.width / 20);
+        
+        // Initialize drops
+        for (let i = 0; i < dropCount; i++) {
+            drops.push({
+                x: i * 20,
+                y: Math.random() * this.canvas.height,
+                speed: Math.random() * 2 + 1,
+                char: matrixChars[Math.floor(Math.random() * matrixChars.length)]
+            });
+        }
+        
+        // Update matrix rain
+        const updateMatrixRain = () => {
+            drops.forEach(drop => {
+                drop.y += drop.speed;
+                if (drop.y > this.canvas.height) {
+                    drop.y = -20;
+                    drop.char = matrixChars[Math.floor(Math.random() * matrixChars.length)];
+                }
+                
+                // Draw matrix character
+                this.ctx.fillStyle = 'rgba(0, 255, 255, 0.1)';
+                this.ctx.font = '12px monospace';
+                this.ctx.fillText(drop.char, drop.x, drop.y);
+            });
+        };
+        
+        // Add to main animation loop
+        const originalAnimate = this.animate.bind(this);
+        this.animate = () => {
+            this.updateNeurons();
+            updateMatrixRain();
+            this.drawNeuralNetwork();
+            this.animationId = requestAnimationFrame(() => this.animate());
+        };
     }
 }
 

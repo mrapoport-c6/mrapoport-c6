@@ -1,0 +1,10 @@
+ACMS-MCP|https://github.com/mrapoport-c6/ACMS-MCP|Advanced Context Memory System for Model Context Protocol|Multi-Tech|0|0|5|2025-01-03T18:20:03Z|2025-01-03T18:23:27Z|
+agenticam-investigate|https://github.com/mrapoport-c6/agenticam-investigate|Advanced project|Multi-Tech|0|0|0|2025-03-27T16:43:00Z|2025-03-27T16:43:00Z|
+Autonomous-Drone-based-on-Facial-Recognition-and-Tracking|https://github.com/mrapoport-c6/Autonomous-Drone-based-on-Facial-Recognition-and-Tracking|The Application serves as a Virtual Remote Controller for DJI Tello/Tello Edu. Embedded with Python based Face Recognition and Tracking and Convolutional Neural Network, the application gives autonomous flight ability to the Drone. There are two modes: Manual and Autonomous mode, Patrolling and Live Video Streaming.|Multi-Tech|0|0|11304|2024-12-15T14:07:58Z|2024-12-15T14:07:58Z|
+blackboxai-1743332567873|https://github.com/mrapoport-c6/blackboxai-1743332567873|Built by https://www.blackbox.ai|Multi-Tech|0|0|0|2025-03-30T11:02:48Z|2025-03-30T11:02:52Z|
+evolvecode|https://github.com/mrapoport-c6/evolvecode|Advanced project|TypeScript|0|0|285|2025-07-24T00:44:29Z|2025-07-24T02:54:56Z|
+mrapoport-c6|https://github.com/mrapoport-c6/mrapoport-c6|Config files for my GitHub profile.|Multi-Tech|0|0|18|2024-12-14T23:26:22Z|2025-06-27T15:21:43Z|config,github-config
+rubedium|https://github.com/mrapoport-c6/rubedium|Advanced project|HTML|0|0|22|2025-03-26T16:10:32Z|2025-03-26T16:15:42Z|
+social-media-profile-scrapers|https://github.com/mrapoport-c6/social-media-profile-scrapers|Fetch user's data across social media|Multi-Tech|0|0|4717|2025-02-19T08:40:43Z|2025-02-19T08:40:43Z|
+Social-Media-Scraping-API|https://github.com/mrapoport-c6/Social-Media-Scraping-API|Social Media Scraping API code examples for Python, PHP and Node.js|Multi-Tech|0|0|82|2025-02-19T09:19:35Z|2025-02-19T09:19:35Z|
+takprotobuf|https://github.com/mrapoport-c6/takprotobuf|Python script for processing CoT XML for encoding as Protocol Buffers|Multi-Tech|0|0|274|2024-12-11T19:04:04Z|2024-12-11T19:04:04Z|
