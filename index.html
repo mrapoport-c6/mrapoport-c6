@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Code Nexus | MRapoport-C6 Project Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Neural Network Background Canvas -->
+    <canvas id="neural-bg"></canvas>
+    
+    <!-- Holographic UI Overlay -->
+    <div class="hologram-overlay"></div>
+    
+    <!-- Main Container -->
+    <div class="matrix-container">
+        <!-- Header Section -->
+        <header class="quantum-header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <div class="neural-logo">
+                        <div class="neuron-core"></div>
+                        <div class="synapse-ring"></div>
+                        <div class="synapse-ring"></div>
+                        <div class="synapse-ring"></div>
+                    </div>
+                    <h1 class="title-glitch" data-text="NEURAL CODE NEXUS">
+                        <span>NEURAL CODE NEXUS</span>
+                    </h1>
+                </div>
+                <div class="subtitle-container">
+                    <p class="quantum-subtitle">Advanced Repository Intelligence Matrix</p>
+                    <div class="status-bar">
+                        <div class="status-item">
+                            <span class="pulse-dot"></span>
+                            <span>SYSTEMS ONLINE</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="data-stream">01010101</span>
+                            <span>SCANNING REPOSITORIES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Project Grid -->
+        <main class="project-grid">
+            <div class="grid-header">
+                <h2 class="section-title">Repository Quantum Entanglement</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="ai">AI/ML</button>
+                    <button class="filter-btn" data-filter="web">Web Tech</button>
+                    <button class="filter-btn" data-filter="api">APIs</button>
+                    <button class="filter-btn" data-filter="tools">Tools</button>
+                </div>
+            </div>
+
+            <!-- Project Cards -->
+            <div class="projects-container">
+                <!-- ACMS-MCP -->
+                <div class="project-card" data-category="ai">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon ai-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">ACMS-MCP</h3>
+                                <span class="project-type">AI System</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Advanced Context Memory System for Model Context Protocol - Next-gen AI memory architecture
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Language</span>
+                                <span class="stat-value">Multi-Platform</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Status</span>
+                                <span class="stat-value active">Active</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/ACMS-MCP" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Autonomous Drone -->
+                <div class="project-card" data-category="ai">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon drone-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">Autonomous Drone AI</h3>
+                                <span class="project-type">Computer Vision</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            AI-powered autonomous drone with facial recognition, tracking, and CNN integration for DJI Tello series
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Language</span>
+                                <span class="stat-value">Python + CV</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Features</span>
+                                <span class="stat-value">Patrol Mode</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/Autonomous-Drone-based-on-Facial-Recognition-and-Tracking" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EvolveCode -->
+                <div class="project-card" data-category="tools">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon tools-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">EvolveCode</h3>
+                                <span class="project-type">Development Tool</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Advanced TypeScript development framework with evolutionary coding patterns
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Language</span>
+                                <span class="stat-value">TypeScript</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Status</span>
+                                <span class="stat-value active">Latest</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/evolvecode" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rubedium -->
+                <div class="project-card" data-category="web">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon web-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">Rubedium</h3>
+                                <span class="project-type">Web Platform</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Next-generation web platform with advanced HTML5 capabilities and modern architecture
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Language</span>
+                                <span class="stat-value">HTML5+</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Type</span>
+                                <span class="stat-value">Platform</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/rubedium" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Media Scrapers -->
+                <div class="project-card" data-category="api">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon api-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">Social Profile Scrapers</h3>
+                                <span class="project-type">Data Mining</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Advanced social media profile data extraction system with multi-platform support
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Scope</span>
+                                <span class="stat-value">Multi-Platform</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Type</span>
+                                <span class="stat-value">Scraper</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/social-media-profile-scrapers" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Media API -->
+                <div class="project-card" data-category="api">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon api-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">Social Media API</h3>
+                                <span class="project-type">API Framework</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Comprehensive social media scraping API with multi-language support (Python, PHP, Node.js)
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Languages</span>
+                                <span class="stat-value">Multi-Lang</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Type</span>
+                                <span class="stat-value">API</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/Social-Media-Scraping-API" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAK Protocol Buffer -->
+                <div class="project-card" data-category="tools">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon tools-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">TAK ProtoBuf</h3>
+                                <span class="project-type">Protocol Tool</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Advanced Python utility for processing Cursor-on-Target XML and Protocol Buffer encoding
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Protocol</span>
+                                <span class="stat-value">ProtoBuf</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Format</span>
+                                <span class="stat-value">CoT XML</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/takprotobuf" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AgentiCam Investigate -->
+                <div class="project-card" data-category="ai">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon ai-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">AgentiCam Investigate</h3>
+                                <span class="project-type">Investigation AI</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Intelligent investigation system with advanced camera integration and AI analysis
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Domain</span>
+                                <span class="stat-value">Investigation</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Status</span>
+                                <span class="stat-value research">Research</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/agenticam-investigate" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BlackBox AI -->
+                <div class="project-card" data-category="ai">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon ai-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">BlackBox AI</h3>
+                                <span class="project-type">AI Platform</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Advanced AI platform integration with blackbox.ai capabilities and intelligent automation
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Platform</span>
+                                <span class="stat-value">BlackBox.ai</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Status</span>
+                                <span class="stat-value active">Live</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/blackboxai-1743332567873" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Profile Repository -->
+                <div class="project-card" data-category="web">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="project-header">
+                            <div class="project-icon web-icon">
+                                <div class="icon-core"></div>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">Profile Config</h3>
+                                <span class="project-type">GitHub Profile</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Advanced GitHub profile configuration with custom README and development environment setup
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-label">Type</span>
+                                <span class="stat-value">Config</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Status</span>
+                                <span class="stat-value active">Maintained</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/mrapoport-c6/mrapoport-c6" class="btn-quantum" target="_blank">
+                                <span>Access Repository</span>
+                                <div class="quantum-trail"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="quantum-footer">
+            <div class="footer-content">
+                <div class="neural-signature">
+                    <span class="signature-text">Neural Code Nexus v2.1.0</span>
+                    <div class="quantum-particles"></div>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/mrapoport-c6" target="_blank" class="footer-link">GitHub Profile</a>
+                    <span class="separator">•</span>
+                    <span class="footer-text">Quantum Repository Matrix</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
